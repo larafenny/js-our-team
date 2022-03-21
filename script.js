@@ -52,4 +52,19 @@ const cardMemberTeam = [
     },
 
 ];
+
+//recupero da html team-container
+const teamCard = document.getElementsByClassName('team-card');
+const teamContainer = document.getElementsByClassName('team-container');
     
+// creo funzione che crea un div per ogni card del dipendente
+/**
+ * Create a new div element and return it
+ * @returns A div element
+ */
+function cardMemberCreator(){
+    const member = document.createElement('div');
+    return member;
+}
+
+cardMemberCreator();
