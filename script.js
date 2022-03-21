@@ -62,9 +62,16 @@ const teamContainer = document.getElementsByClassName('team-container');
  * Create a new div element and return it
  * @returns A div element
  */
-function cardMemberCreator(){
+/*function cardMemberCreator(){
     const member = document.createElement('div');
     return member;
-}
+}*/
 
-cardMemberCreator();
+// creo funzione che mi inserisce una card per ogni dipendente
+function cardMemberCreator(){
+    for(let i=0; i<cardMemberTeam; i++){
+        const member = cardMemberTeam[i];
+        return member;
+    }
+
+}
